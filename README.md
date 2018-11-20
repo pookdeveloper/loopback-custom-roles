@@ -298,7 +298,7 @@ module.exports = function (Personas) {
 
 ## Notes:
 
-For all models you can use https://loopback.io/doc/en/lb3/Defining-mixins.html
+For all models I think you can use https://loopback.io/doc/en/lb3/Defining-middleware.html
 
 
 
