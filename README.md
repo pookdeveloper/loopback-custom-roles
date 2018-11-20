@@ -62,7 +62,7 @@ For all models I have in the acl this:
 Basically I create the acl by the console like this:
 
 
-![alt text](https://github.com/pookdeveloper/loopback-custom-roles/edit/master/acl.png)
+(https://github.com/pookdeveloper/loopback-custom-roles/blob/master/acl.png)
 
 
 ### Example of data in json of roles for one user:
