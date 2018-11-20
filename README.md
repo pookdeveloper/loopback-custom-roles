@@ -13,6 +13,58 @@ In my case I use this tables:
 * permisos - (Permisions for models)
 
 
+For all models I have in the acl this:
+
+````json
+ "acls": [
+    {
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property": "find"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property": "prototype_get_accessTokens"
+    },
+    {
+      "accessType": "EXECUTE",
+      "principalType": "ROLE",
+      "principalId": "$unauthenticated",
+      "permission": "DENY",
+      "property": "create"
+    },
+    {
+      "accessType": "EXECUTE",
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "DENY",
+      "property": "create"
+    },
+    {
+      "accessType": "EXECUTE",
+      "principalType": "ROLE",
+      "principalId": "admin",
+      "permission": "ALLOW",
+      "property": "create"
+    },
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW"
+    }
+  ],
+````
+
+Basically I create the acl by the console like this:
+
+
+![alt text](https://github.com/pookdeveloper/loopback-custom-roles/edit/master/acl.png)
+
+
 ### Example of data in json of roles for one user:
 
 ```` json
