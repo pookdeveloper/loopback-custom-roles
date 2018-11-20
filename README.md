@@ -5,11 +5,11 @@ To use a custom role you can created a custom tables to manage this:
 
 In my case I use this tables:
 
-usuario - (Table of users) 
-usuario-grupos - (Table of users asociate a any groups) 
-grupos - (It contains any models to acces) 
-modelos - (Models who can acces by a group)
-permisos - (Permisions for models)
+⋅⋅*usuario - (Table of users) 
+⋅⋅*usuario-grupos - (Table of users asociate a any groups) 
+⋅⋅*grupos - (It contains any models to acces) 
+⋅⋅*modelos - (Models who can acces by a group)
+⋅⋅*permisos - (Permisions for models)
 
 
 Example of data in json of roles for one user:
