@@ -1,6 +1,6 @@
 # loopback-custom-roles
 
-## Loopback custom roles or security
+## Loopback 3 custom roles or security
 
 To use a custom role you can created a custom tables to manage this:
 
