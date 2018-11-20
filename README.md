@@ -14,7 +14,7 @@ permisos - (Permisions for models)
 
 Example of data in json of roles for one user:
 
-````
+```` json
 [
     {
         "realm": null,
@@ -153,7 +153,7 @@ Example of data in json of roles for one user:
 
 
 Data for restirct the acces in one model:
-````
+```` javascript
 'use strict';
 
 module.exports = function (Personas) {
