@@ -204,7 +204,7 @@ Basically I create the acl by the console like this:
 ````
 
 
-### Data for restirct the acces in one model:
+### Data for restrict the acces in one model:
 ```` javascript
 'use strict';
 
